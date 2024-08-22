@@ -211,7 +211,7 @@
         LAYER_4 {
             bindings = <
 &trans  &trans  &kp LC(UP)          &kp LC(PAGE_UP)    &kp LC(HOME)   &trans    &Clave  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans            &trans  &PantallaCompleta
-&none   &none   &kp LC(DOWN_ARROW)  &kp LC(PAGE_DOWN)  &kp LC(END)    &trans    &trans  &kp C_VOLUME_UP  &kp C_VOL_DN       &kp C_PLAY_PAUSE  &trans  &PantallaNormal
+&none   &none   &kp LC(DOWN_ARROW)  &kp LC(PAGE_DOWN)  &kp LC(END)    &trans    &trans  &kp C_VOL_DN     &kp C_VOLUME_UP    &kp C_PLAY_PAUSE  &trans  &PantallaNormal
 &trans  &none   &none               &kp LC(LEFT)       &kp LC(RIGHT)  &none     &trans  &kp DEL          &kp C_MUTE         &trans            &trans  &trans
                                     &trans             &trans         &trans    &trans  &trans           &trans
             >;
