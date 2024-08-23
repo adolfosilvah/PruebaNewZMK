@@ -113,6 +113,16 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <7 8 9 10>;
         };
+
+        lettab {
+            bindings = <&kp TAB>;
+            key-positions = <25 26 27 28>;
+        };
+
+        rigTab {
+            bindings = <&kp TAB>;
+            key-positions = <31 32 33 34>;
+        };
     };
 
     behaviors {
