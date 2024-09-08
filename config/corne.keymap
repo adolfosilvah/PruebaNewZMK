@@ -23,6 +23,7 @@
     tapping-term-ms = <200>;
     quick-tap-ms = <100>;
     bindings = <&kp>, <&kp>;
+
     flavor = "balanced";
 };
 
@@ -64,7 +65,6 @@
             bindings = <&soft_off>;
             key-positions = <0 29>;
         };
-
 
         Page-Up {
             bindings = <&kp PAGE_UP>;
@@ -159,6 +159,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HM";
             bindings = <&kp>, <&kp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <250>;
             quick-tap-ms = <0>;
@@ -270,10 +271,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F13  &kp F14  &kp F15  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F16  &kp F17  &kp F18  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F19  &kp F20  &kp F21  &trans  &trans
+                        &trans  &trans  &trans    &kp F22  &kp F23  &kp F24
             >;
         };
     };
