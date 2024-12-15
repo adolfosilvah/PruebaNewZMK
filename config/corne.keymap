@@ -145,6 +145,11 @@
             key-positions = <3 15>;
             layers = <3>;
         };
+
+        Tabular {
+            bindings = <&kp TAB>;
+            key-positions = <26 27>;
+        };
     };
 
     behaviors {
