@@ -150,6 +150,11 @@
             bindings = <&kp TAB>;
             key-positions = <26 27>;
         };
+
+        Com-tab {
+            bindings = <&kp TAB>;
+            key-positions = <15 16>;
+        };
     };
 
     behaviors {
