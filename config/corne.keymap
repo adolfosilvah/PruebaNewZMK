@@ -247,12 +247,12 @@
         compatible = "zmk,conditional-layers";
 
         capa4 {
-            if-layers = <2 1>;
+            if-layers = <1 2>;
             then-layer = <3>;
         };
 
         capa5 {
-            if-layers = <4 1>;
+            if-layers = <1 4>;
             then-layer = <5>;
         };
     };
