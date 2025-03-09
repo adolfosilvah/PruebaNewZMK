@@ -117,7 +117,7 @@
         };
 
         Tabular {
-            bindings = <&kp TAB>;
+            bindings = <&kp KP_ENTER>;
             key-positions = <26 27>;
         };
 
@@ -129,6 +129,11 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <28 27>;
+        };
+
+        Enter {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <20 21>;
         };
     };
 
