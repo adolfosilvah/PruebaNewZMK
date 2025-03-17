@@ -136,16 +136,6 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <20 21>;
         };
-
-        Capa0 {
-            bindings = <&default_layer_0>;
-            key-positions = <1 2 3 4>;
-        };
-
-        Capa6 {
-            bindings = <&default_layer_6>;
-            key-positions = <25 26 27 28>;
-        };
     };
 
     behaviors {
