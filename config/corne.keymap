@@ -136,6 +136,16 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <20 21>;
         };
+
+        Capa0 {
+            bindings = <&default_layer_0>;
+            key-positions = <1 2 3 4>;
+        };
+
+        Capa6 {
+            bindings = <&default_layer_6>;
+            key-positions = <25 26 27 28>;
+        };
     };
 
     behaviors {
@@ -158,6 +168,7 @@
         };
 
         // Comportamientos para cambiar la capa predeterminada
+
         default_layer_0: default_layer_0 {
             compatible = "zmk,behavior-default-layer";
             #binding-cells = <1>;
@@ -197,9 +208,7 @@
 
     keymap {
         compatible = "zmk,keymap";
-
         default_layer = <0>; // Establece la capa 0 como predeterminada
-
         DEFAULT_LAYER {
             bindings = <
 &kp ESCAPE         &kp Q        &kp W       &kp E             &kp R           &kp T               &kp Y             &kp U           &kp I             &kp O           &kp P                &kp DEL
