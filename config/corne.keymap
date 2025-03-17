@@ -24,6 +24,7 @@
     tapping-term-ms = <200>;
     quick-tap-ms = <100>;
     bindings = <&kp>, <&kp>;
+
     flavor = "balanced";
 };
 
@@ -116,11 +117,6 @@
             layers = <3>;
         };
 
-        Tabular {
-            bindings = <&kp KP_ENTER>;
-            key-positions = <26 27>;
-        };
-
         Com-tab {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
@@ -129,11 +125,6 @@
         space {
             bindings = <&kp SPACE>;
             key-positions = <28 27>;
-        };
-
-        Enter {
-            bindings = <&kp KP_ENTER>;
-            key-positions = <20 21>;
         };
     };
 
@@ -155,7 +146,6 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
         };
-
     };
 
     macros {
@@ -243,8 +233,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F13  &kp F14  &kp F15  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F16  &kp F17  &kp F18  &trans  &trans
-&trans            &trans  &trans  &trans  &trans  &trans    &kp A    &kp F19  &kp F20  &kp F21  &trans  &trans
-                                  &trans  &trans  &trans    &kp F22  &kp F23  &kp F24
+&trans  &trans  &trans  &trans  &trans  &trans    &kp A    &kp F19  &kp F20  &kp F21  &trans  &trans
+                        &trans  &trans  &trans    &kp F22  &kp F23  &kp F24
             >;
         };
     };
