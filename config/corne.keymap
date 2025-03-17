@@ -10,6 +10,7 @@
 #define LAYER_3 3
 #define LAYER_4 4
 #define LAYER_5 5
+#define LAYER_6 6
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -155,6 +156,19 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
         };
+
+        // Comportamientos para cambiar la capa predeterminada
+        default_layer_0: default_layer_0 {
+            compatible = "zmk,behavior-default-layer";
+            #binding-cells = <1>;
+            layer = <0>;
+        };
+
+        default_layer_6: default_layer_6 {
+            compatible = "zmk,behavior-default-layer";
+            #binding-cells = <1>;
+            layer = <6>;
+        };
     };
 
     macros {
@@ -183,6 +197,8 @@
 
     keymap {
         compatible = "zmk,keymap";
+
+        default_layer = <0>; // Establece la capa 0 como predeterminada
 
         DEFAULT_LAYER {
             bindings = <
