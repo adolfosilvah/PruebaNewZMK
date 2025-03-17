@@ -156,23 +156,6 @@
             flavor = "tap-preferred";
         };
 
-        // Comportamientos para cambiar la capa predeterminada
-        behavior_change_layer: behavior_change_layer {
-            compatible = "zmk,behavior-macro";
-            bindings = <&default_layer_0>, <&default_layer_6>;
-        };
-
-        default_layer_0: default_layer_0 {
-            compatible = "zmk,behavior-default-layer";
-            #binding-cells = <1>;
-            layer = <0>;
-        };
-
-        default_layer_6: default_layer_6 {
-            compatible = "zmk,behavior-default-layer";
-            #binding-cells = <1>;
-            layer = <6>;
-        };
     };
 
     macros {
@@ -258,7 +241,7 @@
 
         layer_6 {
             bindings = <
-&default_layer_0  &trans  &trans  &trans  &trans  &trans    &trans   &kp F13  &kp F14  &kp F15  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F13  &kp F14  &kp F15  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F16  &kp F17  &kp F18  &trans  &trans
 &trans            &trans  &trans  &trans  &trans  &trans    &kp A    &kp F19  &kp F20  &kp F21  &trans  &trans
                                   &trans  &trans  &trans    &kp F22  &kp F23  &kp F24
