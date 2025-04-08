@@ -18,13 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano  # ¡Cambiado de "nice_nano" a "promicro_nrf52840"!
+  - board: nice_nano
     shield: corne_left
   - board: nice_nano
     shield: corne_right
-
-# Comportamientos personalizados (opcional)
-behaviors:
-  battery_report:
-    compatible: zmk,battery-report
-    interval: 120000  # Intervalo en ms (2 minutos)
