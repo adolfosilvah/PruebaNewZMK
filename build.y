@@ -18,9 +18,9 @@
 #
 ---
 include:
-  - board: nice_nano  # ¡Cambiado de "nice_nano" a "promicro_nrf52840"!
+  - board: promicro_nrf52840  # ¡Cambiado de "nice_nano" a "promicro_nrf52840"!
     shield: corne_left
-  - board: nice_nano
+  - board: promicro_nrf52840
     shield: corne_right
 
 # Comportamientos personalizados (opcional)
