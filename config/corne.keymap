@@ -126,6 +126,16 @@
             bindings = <&kp SPACE>;
             key-positions = <28 27>;
         };
+
+        Desacer {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 26>;
+        };
+
+        Reacer {
+            bindings = <&kp LC(Y)>;
+            key-positions = <1 2>;
+        };
     };
 
     behaviors {
