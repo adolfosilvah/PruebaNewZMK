@@ -205,10 +205,10 @@
 
         LOWER_LAYER {
             bindings = <
-&kp ESC  &kp EXCL   &kp AT     &kp HASH           &kp DOLLAR     &kp PERCENT         &kp PLUS        &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans
-&trans   &kp TILDE  &kp CARET  &kp APOS           &kp LESS_THAN  &kp GREATER_THAN    &kp MINUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &kp SINGLE_QUOTE
-&trans   &none      &none      &kp DOUBLE_QUOTES  &none          &Captura            &kp UNDERSCORE  &kp ASTERISK   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH      &trans
-                               &trans             &trans         &trans              &trans          &trans         &trans
+&kp ESC  &kp EXCL          &kp AT     &kp HASH           &kp DOLLAR     &kp PERCENT         &kp PLUS        &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans
+&trans   &kp TILDE         &kp CARET  &kp APOS           &kp LESS_THAN  &kp GREATER_THAN    &kp MINUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &kp SINGLE_QUOTE
+&trans   &kp RA(RS(SEMI))  &none      &kp DOUBLE_QUOTES  &none          &Captura            &kp UNDERSCORE  &kp ASTERISK   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH      &trans
+                                      &trans             &trans         &trans              &trans          &trans         &trans
             >;
         };
 
