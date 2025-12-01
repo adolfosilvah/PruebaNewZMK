@@ -146,6 +146,11 @@
             bindings = <&kp ENTER>;
             key-positions = <20 21>;
         };
+
+        CommandPalette {
+            bindings = <&kp LA(LG(SPACE))>;
+            key-positions = <26 27 28>;
+        };
     };
 
     behaviors {
